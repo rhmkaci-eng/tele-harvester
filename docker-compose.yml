@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  tele-harvester:
+    build: .
+    container_name: tele-harvester-pro
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    network_mode: host

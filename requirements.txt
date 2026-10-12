@@ -1,0 +1,8 @@
+# Core Telegram Framework
+Telethon>=1.36.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Optional Async Performance
+cryptg>=0.4.0

@@ -1,0 +1,53 @@
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+*.session
+*.session-journal
+*.session-journal*
+*.session.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs & Output Runtime Artifacts
+*.log
+logs/
+*.json
+!config.example.json
+alerts.json
+alerts.md
+live_alerts.json
+live_alerts.md
+*.png
+!assets/*.png
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
